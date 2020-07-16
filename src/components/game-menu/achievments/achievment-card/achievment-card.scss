@@ -1,0 +1,27 @@
+.card {
+    margin-top: 20px;
+    width: 280px;
+    .disabled {
+        cursor: auto;
+    }
+    &__achievment-img {
+        max-height: 150px;
+        max-width: 250px;
+        margin: 0px auto;
+    }
+    hr {
+        margin-top: 10px;
+        background-color: #fff;
+    }
+    &__bells {
+        max-width: 9%;
+    }
+    &__no-money {
+        margin-top: 10px;
+        p {
+            height: 0;
+            padding: 0 20px;
+            line-height: 100%;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.skills {
+    position: relative;
+    width: 150px;
+    background-color: #fff;
+    &__closer {
+        z-index: 2;
+        padding: 0;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 50px solid transparent;
+        opacity: 0.4;
+        border-bottom-color: white;
+        border-top: 0;
+        bottom: 40px;
+        left: 380px;
+    }
+}

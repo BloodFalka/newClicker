@@ -1,0 +1,14 @@
+.skill {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    border: 1px dashed white;
+    img {
+        margin: 0 auto;
+        max-width: 100%;
+        max-height: 100px;
+    }
+}
